@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.section_two {
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    dl:nth-child(odd) {
+        padding-right: 5px;
+        box-sizing: border-box;
+    }
+    dl {
+        width: 50%;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        dt {
+            width: 100%;
+            background: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            img {
+                width: 100px;
+                height: 200px;
+            }
+        }
+        dd {
+            width: 100%;
+            background: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            h1 {
+                span {
+                    font-size: 14px;
+                    border: solid 1px #ccc;
+                    padding: 4px;
+                    box-sizing: border-box;
+                }
+                b {
+                    font-size: 16px;
+                    padding-left: 4px;
+                    box-sizing: border-box;
+                }
+            }
+            h2 {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding-top: 5px;
+                box-sizing: border-box;
+                span {
+                    font-size: 16px;
+                    color: #f00;
+                }
+                b {
+                    font-size: 14px;
+                    border: solid 1px #ccc;
+                    padding: 4px;
+                    box-sizing: border-box;
+                }
+            }
+            p {
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                padding-top: 5px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-content: center;
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .iconfont {
+                font-size: 20px;
+            }
+        }
+    }
+}
